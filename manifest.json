@@ -1,0 +1,20 @@
+{
+  "id": "starterkit-plugin",
+  "name": "StarterKit Plugin",
+  "version": "0.1.0",
+  "description": "This is a starterkit plugin",
+  "author": {
+    "name": "Cyware Labs Inc.",
+    "email": "dev@cyware.io",
+    "url": "https://github.com/cyware/starterkit-plugin"
+  },
+  "plugins": [
+    {
+      "kind": "frontend",
+      "id": "cyware-extra-commands",
+      "name": "Extra Commands",
+      "entrypoint": "frontend/script.js",
+      "style": "frontend/style.css"
+    }
+  ]
+}
